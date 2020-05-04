@@ -1,0 +1,34 @@
+#top-welcome {
+  padding: 150px;
+  background-image: url("photo.jpg");
+  text-align: center;
+  color: white;
+  font-family: Georgia, Courier New;
+  font-weight: bold;
+  text-shadow: 0 0 5px black; }
+  @media (min-width: 700px) {
+    #top-welcome {
+      height: 500px; } }
+  @media (max-width: 700px) {
+    #top-welcome {
+      height: 700px; } }
+  #top-welcome h1 {
+    font-size: 60px; }
+  #top-welcome h3 {
+    font-size: 32px; }
+
+#browse {
+  padding: 30px;
+  height: 400px;
+  margin: auto;
+  text-align: center; }
+
+.browse-text {
+  padding: 30px; }
+
+button {
+  font-family: Arial;
+  margin: 15px;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
